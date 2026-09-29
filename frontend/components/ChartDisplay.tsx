@@ -15,7 +15,7 @@ import EmailCaptureSection from "@/components/EmailCaptureSection";
 
 // ── Konfigurierbare CTA-URLs ──────────────────────────────────────────────────
 const CTA_AUTORITAET_URL = "https://www.stupperich.de/praxiskurs-entscheidungsfindung";
-const CTA_READING_URL    = "https://stupperich.de"; // TODO: Business-Reading URL
+const CTA_READING_URL    = "https://www.stupperich.de/leadership-reading";
 
 // ── Design-Tokens ─────────────────────────────────────────────────────────────
 const ACCENT   = "#5F7680";
@@ -414,7 +414,7 @@ export default function ChartDisplay({
           <div className="flex items-stretch">
             <div className="flex-1 px-5 py-5">
               <p className="text-xs font-semibold uppercase tracking-widest mb-3" style={{ color: ACCENT, letterSpacing: "0.13em" }}>
-                Business Energy Reading
+                Leadership Reading
               </p>
               <p className="text-sm font-bold uppercase mb-1" style={{ color: DARK, letterSpacing: "0.05em" }}>
                 2. Deine gesamte Chart verstehen
@@ -423,7 +423,7 @@ export default function ChartDisplay({
                 Dein persönliches Human Design Business Reading
               </p>
               <p className="text-sm mb-3 leading-relaxed" style={{ color: BODY }}>
-                In deinem persönlichen Reading betrachten wir gemeinsam die Zusammenhänge in deiner gesamten Chart. Du erfährst, wie deine Entscheidungsautorität, deine Energie, deine Kommunikation und deine natürliche Arbeitsweise zusammenspielen und was das für deinen Businessalltag bedeutet.
+                Im Leadership Reading arbeite ich mit Codes of Life®. Deine aktuelle Situation gibt den Fokus vor: Entscheidungen, Kommunikation, Wirkung und Muster. Du erkennst, was deine Art zu führen im Kern ausmacht und wie du daraus führst, statt dich anzupassen oder andere zu kopieren.
               </p>
               <p className="text-xs font-semibold mb-4" style={{ color: MUTED, letterSpacing: "0.1em" }}>
                 PERSÖNLICH | 90 MINUTEN | KONKRETER BUSINESSBEZUG
@@ -431,7 +431,7 @@ export default function ChartDisplay({
               <a href={CTA_READING_URL} target="_blank" rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-sm font-medium px-4 py-2.5 transition-opacity hover:opacity-90"
                 style={{ background: ACCENT, color: "#fff" }}>
-                Business Reading ansehen
+                Leadership Reading ansehen
                 <Icon name="arrowRight" size={14} color="#fff" />
               </a>
             </div>
