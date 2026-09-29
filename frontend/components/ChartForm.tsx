@@ -232,7 +232,9 @@ export default function ChartForm({ onSuccess, onError, onRequest }: ChartFormPr
           Entdecke, wie du authentisch führst, arbeitest, Entscheidungen triffst und kommunizierst.
         </h1>
         <p className="text-base leading-relaxed mb-6" style={{ color: BODY }}>
-          Deine Human Design Business-Energie zeigt dir präzise, was dich wirksam macht und was dich ausbremst.
+          Der Calculator zeigt dir die Grundpfeiler deines energetischen Fingerprints. Er ist bewusst vereinfacht und auf den Businessalltag übersetzt.<br /><br />
+          Du bekommst einen ersten Blick auf deinen Energietyp, deine Entscheidungsautorität und weitere ausgewählte Grundlagen. Keine vollständige Analyse, kein Bodygraph, kein Fachchinesisch.<br /><br />
+          Die Berechnung läuft automatisch. Die Texte und Business-Übersetzungen stammen von mir.
         </p>
 
         {/* ── Silke – Vertrauenssignal ── */}
